@@ -523,7 +523,7 @@ def clean_gfc_df(df):
 
 
 def main_pipeline():
-    api_key = "AIzaSyA1OPNoYJ6f2DNrK79XOp01UIMwU3XG_D8"  # Replace with your actual API key
+    api_key = ""  # Replace with your actual API key
     base_url = "https://factchecktools.googleapis.com/v1alpha1/claims:search"
     queries = ["covid", "coronavirus", "virus", "vaccine"]
     max_age_day = 1000000
